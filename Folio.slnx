@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Folio.API/Folio.API.csproj" />
+  <Project Path="Folio.CORE/Folio.CORE.csproj" />
+  <Project Path="Folio.Infrastructure/Folio.Infrastructure.csproj" />
+  <Project Path="Folio.Shared/Folio.Shared.csproj" />
+  <Project Path="Folio.Tests/Folio.Tests.csproj" />
+  <Project Path="Folio.WebAssembly/Folio.WebAssembly.csproj" />
+</Solution>
