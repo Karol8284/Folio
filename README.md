@@ -13,7 +13,7 @@ A full-stack application for booking and managing rooms/spaces with user authent
 ## 🏗️ Tech Stack
 **Folio/** <br>
 - **Folio.API/** <br>
-- - REST API endpoints
+  - REST API endpoints
 - **  ** <br>
 - **  ** <br>
 - **  ** <br>
