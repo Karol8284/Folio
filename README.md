@@ -12,29 +12,20 @@ A full-stack application for booking and managing rooms/spaces with user authent
 ## 🎨 Project Structure
 ## 🏗️ Folio Tech Stack
 
+
+### Folio.CORE/ 
+  - Business logic & entities
+### Folio.Infrastructure/
+ - Database & external services
+### Folio.Shared/
+ - Shared models & DTOs
 ### Folio.API/
 -  REST API endpoints
 
-### Folio.CORE/ 
-### Folio.Infrastructure/
-### Folio.Shared/
 ### Folio.WebAssembly/
+ - Frontend ASP.NET Blazor webasembly
 ### Folio.Tests/
-- **  ** <br>
-- **  ** <br>
-- **  ** <br>
-- **  ** <br>
-  REST API endpoints
- 
-  -  - #Business logic & entities
-     -  Folio.Infrastructure/
-     -  # Database & external services
-
-        - # Shared models & DTOs
-        -  Folio.WebAssembly/
-        -  # Frontend (HTML/JS)
-        -  - Folio.Tests/
-           - # Unit & Integration tests
+ - Unit & Integration tests
 
 
 API runs on: https://localhost:7001
