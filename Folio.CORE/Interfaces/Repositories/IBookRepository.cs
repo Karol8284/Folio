@@ -2,6 +2,6 @@
 {
     public interface IBookRepository
     {
-
+        Task<Result<>
     }
 }

@@ -1,6 +1,7 @@
-﻿using Folio.CORE.Enums;
+﻿using Folio.CORE.Entities;
+using Folio.CORE.Enums;
 
-namespace Folio.CORE.Entities
+namespace Folio.CORE.Domain.Entities
 {
     public class User
     {
@@ -10,6 +11,7 @@ namespace Folio.CORE.Entities
         public string DisplayName { get; set; } = string.Empty;
         public string? AvatarUrl { get; set; }
         public Role Role { get; set; }
+        public bool isActive { get; set; }
         public bool IsEmailConfirmed { get; set; }
         public DateTime CreatedAt { get; set; }
 

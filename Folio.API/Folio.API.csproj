@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Folio.CORE\Folio.CORE.csproj" />
+    <ProjectReference Include="..\Folio.Infrastructure\Folio.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
