@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Responses\" />
+    <ProjectReference Include="..\Folio.CORE\Folio.CORE.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,4 @@
-﻿using Folio.CORE.Domain.Entities;
-
-namespace Folio.CORE.Entities
+﻿namespace Folio.CORE.Entities
 {
     public class ReadingProgress
     {

@@ -1,5 +1,5 @@
 ﻿using Folio.CORE.Domain.Entities;
-using Folio.CORE.Domain.Interfaces;
+using Folio.CORE.Interfaces;
 using Folio.Infrastructure.Security;
 
 namespace Folio.Infrastructure.Services

@@ -1,8 +1,11 @@
 ﻿using Folio.CORE.Enums;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Folio.CORE.Entities
+namespace Folio.Shared.DTOs.Book
 {
-    public class Book
+    public class UpdateBookRequest
     {
         public Guid Id { get; set; }
         public string Title { get; set; } = string.Empty;
@@ -12,6 +15,5 @@ namespace Folio.CORE.Entities
         public string? CoverUrl { get; set; }
         public DateTime WroteDate { get; set; }
         public DateTime CreatedAt { get; set; }
-        public ICollection<Book> Books { get; set; }
     }
 }

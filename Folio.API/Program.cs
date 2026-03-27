@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Folio.CORE.Domain.Interfaces;
 using Folio.Infrastructure.Services;
 using Folio.Infrastructure.Security;
+using Folio.CORE.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

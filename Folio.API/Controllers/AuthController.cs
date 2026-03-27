@@ -1,4 +1,4 @@
-﻿using Folio.CORE.Domain.Interfaces;
+﻿using Folio.CORE.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Folio.API.Controllers;

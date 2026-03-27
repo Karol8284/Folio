@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Folio.CORE.Domain.Interfaces
+namespace Folio.CORE.Interfaces
 {
     public interface IAuthService
     {
