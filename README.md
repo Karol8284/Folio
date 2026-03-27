@@ -10,11 +10,16 @@ A full-stack application for booking and managing rooms/spaces with user authent
 - **Architecture**: Clean Architecture, Repository Pattern
 
 ## 🎨 Project Structure
-## 🏗️ Tech Stack
-**Folio/** <br>
-- **Folio.API/** <br>
-  - REST API endpoints
-### Folio.CORE/ <br>
+## 🏗️ Folio Tech Stack
+
+### Folio.API/
+-  REST API endpoints
+
+### Folio.CORE/ 
+### Folio.Infrastructure/
+### Folio.Shared/
+### Folio.WebAssembly/
+### Folio.Tests/
 - **  ** <br>
 - **  ** <br>
 - **  ** <br>
@@ -24,7 +29,7 @@ A full-stack application for booking and managing rooms/spaces with user authent
   -  - #Business logic & entities
      -  Folio.Infrastructure/
      -  # Database & external services
-     -  - Folio.Shared/
+
         - # Shared models & DTOs
         -  Folio.WebAssembly/
         -  # Frontend (HTML/JS)
