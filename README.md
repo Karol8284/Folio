@@ -14,7 +14,7 @@ A full-stack application for booking and managing rooms/spaces with user authent
 **Folio/** <br>
 - **Folio.API/** <br>
   - REST API endpoints
-- ** ### Folio.CORE/  ** <br>
+### Folio.CORE/ ### <br>
 - **  ** <br>
 - **  ** <br>
 - **  ** <br>
