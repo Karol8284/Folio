@@ -65,6 +65,58 @@ Frontend
 Open Folio.WebAssembly/index.html in your browser
 
 ## API Endpoints
+
+### Authentication
 | Method | Endpoint | Description |
 | --- | ---- | ---- |
+| POST  | /api/auth/register  |  Create new account |
+| POST  | /api/auth/login     |  Login user |
+| GET   | /api/auth/profile   |  Get user profile (requires JWT) |
 
+### Book
+
+### USER
+
+
+## 🧪 Testing
+```bash
+# Run unit tests
+dotnet test Folio.Tests
+```
+## 📝 What I Learned
+- JWT authentication & authorization
+- Clean Architecture patterns
+- EF Core + database migrations
+- Vanilla JavaScript HTTP requests
+- REST API design principles
+
+## ⚠️ Known Issues
+[ ] WebAssembly frontend not fully implemented
+[ ] Email verification pending
+[ ] Rate limiting on API endpoints
+
+##🔮 Future Improvements
+[ ] Implement 2FA
+[ ] Add real-time notifications (SignalR)
+[ ] ASP.NET MAUI Blazor hyberid APP and webassembly + Viue.js
+
+## 📧 Contact
+- Email: karol@example.com
+- GitHub: github.com/Karol8284
+- LinkedIn: linkedin.com/in/karol8284
+
+
+## 📄 License
+MIT License - feel free to use for learning
+```bash
+# Usuń typo folder
+rm -rf Folio.Infrastucture
+
+# Usuń duplicate sln
+rm fOLIO.slnx
+
+# Commit
+git add .
+git commit -m "fix: Remove duplicate folders and files"
+git push
+```
