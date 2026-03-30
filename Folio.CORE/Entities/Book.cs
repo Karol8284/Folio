@@ -12,6 +12,8 @@ namespace Folio.CORE.Entities
         public string? CoverUrl { get; set; }
         public DateTime WroteDate { get; set; }
         public DateTime CreatedAt { get; set; }
-        public ICollection<Book> Books { get; set; }
+
+        // Relacja - Book zawiera wiele Chapters
+        public ICollection<Chapter> Chapters { get; set; } = new List<Chapter>();
     }
 }

@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Folio.CORE.Responses
+﻿namespace Folio.CORE.Responses
 {
     public class ChapterResponse<T>
     {
-        public Guid id
+        public Guid Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public T? Content { get; set; }
     }
-}
+}  

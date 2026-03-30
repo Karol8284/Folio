@@ -10,7 +10,7 @@ namespace Folio.CORE.Entities
         public string DisplayName { get; set; } = string.Empty;
         public string? AvatarUrl { get; set; }
         public Role Role { get; set; }
-        public bool isActive { get; set; }
+        public bool isActive { get; set; } = true;
         public bool IsEmailConfirmed { get; set; }
         public DateTime CreatedAt { get; set; }
 
