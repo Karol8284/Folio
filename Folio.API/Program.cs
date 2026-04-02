@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Folio.Infrastructure.Services;
 using Folio.Infrastructure.Security;
-using Folio.CORE.Interfaces;
+using Folio.CORE.Interfaces.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

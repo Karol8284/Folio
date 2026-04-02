@@ -1,7 +1,7 @@
 ﻿using BCrypt.Net;
 using Folio.CORE.Entities;
-using Folio.CORE.Interfaces;
 using Folio.CORE.Interfaces.Repositories;
+using Folio.CORE.Interfaces.Services;
 using Folio.Infrastructure.Security;
 
 namespace Folio.Infrastructure.Services
@@ -56,7 +56,7 @@ namespace Folio.Infrastructure.Services
                 return (false, "", "Nieprawidłowe dane logowania");
 
             var user = userResult.Value;
-            if (!user.isActive)
+            if (!user.IsActive)
                 return (false, "", "Konto jest wyłączone");
 
             if (!BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
