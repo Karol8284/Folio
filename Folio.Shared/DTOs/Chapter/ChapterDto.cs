@@ -1,10 +1,8 @@
-﻿namespace Folio.CORE.Entities
+﻿using Folio.CORE.Entities;
+
+namespace Folio.Shared.DTOs.Chapter
 {
-    /// <summary>
-    /// Chapter - represents a chapter or section within a book
-    /// Contains reading content and tracks user reading progress
-    /// </summary>
-    public class Chapter
+    public class ChapterDto
     {
         /// <summary>Unique identifier for the chapter (primary key)</summary>
         public Guid Id { get; set; }
@@ -25,9 +23,6 @@
         public int TotalWords { get; set; }
 
         /// <summary>Navigation property - reference to the parent book</summary>
-        public Book? Book { get; set; }
-
-        /// <summary>Navigation property - collection of reading progress records for this chapter by different users</summary>
-        public ICollection<ReadingProgress>? ReadingProgress { get; set; }
+        public Folio.CORE.Entities.Book Book { get; set; }
     }
 }
