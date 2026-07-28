@@ -101,7 +101,6 @@ dotnet test Folio.Tests
 [ ] ASP.NET MAUI Blazor hyberid APP and webassembly + Viue.js
 
 ## 📧 Contact
-- Email: karol@example.com
 - GitHub: github.com/Karol8284
 - LinkedIn: linkedin.com/in/karol8284
 
